@@ -20,6 +20,28 @@ The tool parses the following filenames:
 - `IMG-YYYYMMDD-WA0000.jpeg`
 - `VID-YYYYMMDD-WA0000.mov`
 
+### Allowed extensions
+The tool supports the following extensions:
+* jpg
+* jpeg
+* png
+* gif
+* bmp
+* tiff
+* heic
+* heif
+* webp
+* mp4
+* mov
+* avi
+* mkv
+* mp3
+* wav
+* flac
+* pdf
+* docx
+
+
 
 
 
@@ -30,23 +52,16 @@ To use `metadata-fix`, run the following command:
 metadata-fix <folder-path> [--override]
 ```
 
-- `<folder-path>`: The path to the folder containing the files.
-- `--override`: Optional flag to override existing files.
+- `<folder-path>`: The path to the folder containing the images and videos.
+- `--override`: Optional flag to override existing files. If not set, new files are created by appending `--modified` to the file name.
+
+### Example
+
+![fix-metadata](docs/fix-metadata.gif)
+
 
 ## Installation
 You can download the latest release from the [Releases](https://github.com/giper45/metadata-fix/releases) page.
 
-### Build by yourself
-To build the project yourself, you need to have Go installed. Then, run the following commands:
-
-```sh
-git clone https://github.com/giper45/metadata-fix.git
-cd metadata-fix
-go build
-```
-
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Windows Security
+If you enco
