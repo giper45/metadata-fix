@@ -64,4 +64,27 @@ metadata-fix <folder-path> [--override]
 You can download the latest release from the [Releases](https://github.com/giper45/metadata-fix/releases) page.
 
 ### Windows Security
-If you enco
+When download the file, your OS could block the execution. Click on `Keep` to keep the file, and you can use it from your terminal.
+![windows-keep](docs/windows-keep.png)
+
+### MacOS Security
+You should enable the binary from the `System Settings -> Privacy and Security` if the binary is not allowed to run.
+
+### Do not you trust about binaeries?
+It could be reasonable, but the code is full open-suorce, and simply to read. Build by yourself, and use the tool if you need it
+
+
+### Build by yourself
+To build the project yourself, you need to have Go installed. Then, run the following commands:
+
+```sh
+git clone https://github.com/giper45/metadata-fix.git
+cd metadata-fix
+go build
+```
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
