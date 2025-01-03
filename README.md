@@ -64,14 +64,14 @@ metadata-fix <folder-path> [--override]
 You can download the latest release from the [Releases](https://github.com/giper45/metadata-fix/releases) page.
 
 ### Windows Security
-When download the file, your OS could block the execution. Click on `Keep` to keep the file, and you can use it from your terminal. 
+When download the file, your OS could block the execution. Click on `Keep` to keep the file, and you can use it from your terminal.
 
 ![windows-keep](docs/windows-keep.png)
 
 ### MacOS Security
 You should enable the binary from the `System Settings -> Privacy and Security` if the binary is not allowed to run.
 
-### Do not you trust about binaeries?
+### Do not you trust about binaries?
 It could be reasonable, but the code is full open-suorce, and simply to read. Build by yourself, and use the tool if you need it
 
 
