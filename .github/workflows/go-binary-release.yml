@@ -51,7 +51,7 @@ jobs:
           GOOS="${parts[0]}"
           GOARCH="${parts[1]}"
 
-          output_name="bin/main-$GOOS-$GOARCH"
+          output_name="bin/fix-metadata-$GOOS-$GOARCH"
           if [ "$GOOS" == "windows" ]; then
             output_name+=".exe"
           fi
