@@ -64,7 +64,8 @@ metadata-fix <folder-path> [--override]
 You can download the latest release from the [Releases](https://github.com/giper45/metadata-fix/releases) page.
 
 ### Windows Security
-When download the file, your OS could block the execution. Click on `Keep` to keep the file, and you can use it from your terminal.
+When download the file, your OS could block the execution. Click on `Keep` to keep the file, and you can use it from your terminal. 
+
 ![windows-keep](docs/windows-keep.png)
 
 ### MacOS Security
